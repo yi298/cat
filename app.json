@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",  
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "猫品优购",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabs/shouye.png",
+        "selectedIconPath": "static/tabs/shouye-0.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "static/tabs/fenlei-.png",
+        "selectedIconPath": "static/tabs/fenlei-0.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "分类",
+        "iconPath": "static/tabs/gouwuche.png",
+        "selectedIconPath": "static/tabs/gouwuche-0.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "分类",
+        "iconPath": "static/tabs/wo.png",
+        "selectedIconPath": "static/tabs/wo-0.png"
+      }
+    ]
+  },
+  
+    
+  "sitemapLocation": "sitemap.json"
+}
